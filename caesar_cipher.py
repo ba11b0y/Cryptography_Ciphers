@@ -58,7 +58,7 @@ if len(plaintext_arr)%2!=0:
             break
 if len(plaintext_arr)%2!=0:
     plaintext_arr.append('z')
-print(plaintext_arr)
+#print(plaintext_arr)
 c=0;f=0;f1=0;
 while c<len(plaintext_arr)/2:
 	for i1 in matrix:
@@ -106,7 +106,7 @@ while c<len(plaintext_arr)/2:
 	c+=1
 	x+=2
 	y+=2
-print(encrypted_arr)
+print("The encrypted plain text is %s" %(''.join(encrypted_arr)))
 				
 
 				 
